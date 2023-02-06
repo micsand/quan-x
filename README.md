@@ -9,6 +9,7 @@ ACL4SSR： https://github.com/ACL4SSR/ACL4SSR/tree/master
 
 北纬37度的大飞： https://github.com/w37fhy/QuantumultX
 
-blackmatrix7：https://github.com/blackmatrix7/ios_rule_script
+大飞用的订阅转换网址： https://acl4ssr.netlify.app
 
+blackmatrix7：https://github.com/blackmatrix7/ios_rule_script
 大飞的频道里提过：https://t.me/w37fhy/70
