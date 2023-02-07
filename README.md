@@ -13,3 +13,15 @@ ACL4SSR： https://github.com/ACL4SSR/ACL4SSR/tree/master
 
 blackmatrix7：https://github.com/blackmatrix7/ios_rule_script
 大飞的频道里提过：https://t.me/w37fhy/70
+
+
+资源解析器：
+我看了下几个人的配置规则，资源解析器都是用的KOP-XIAO的，
+
+项目地址为：
+https://github.com/KOP-XIAO/QuantumultX/blob/master/Scripts/resource-parser.js
+
+订阅地址为：
+https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+
+
