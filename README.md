@@ -14,6 +14,9 @@ ACL4SSR： https://github.com/ACL4SSR/ACL4SSR/tree/master
 blackmatrix7：https://github.com/blackmatrix7/ios_rule_script
 大飞的频道里提过：https://t.me/w37fhy/70
 
+耳东橙的教程：https://github.com/erdongchanyo/Rules/blob/main/Quantumult%20X/README.md
+
+他的懒人配置我感觉写的不错，而且配合他的教程感觉对我学习比较有用。
 
 资源解析器：
 我看了下几个人的配置规则，资源解析器都是用的KOP-XIAO的，
