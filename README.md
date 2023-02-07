@@ -18,6 +18,9 @@ blackmatrix7：https://github.com/blackmatrix7/ios_rule_script
 
 他的懒人配置我感觉写的不错，而且配合他的教程感觉对我学习比较有用。
 
+配置文件订阅地址：https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/LazyConf/QuantumultX_EDC-Lazy.conf
+
+
 资源解析器：
 我看了下几个人的配置规则，资源解析器都是用的KOP-XIAO的，
 
