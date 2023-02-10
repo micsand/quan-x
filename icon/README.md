@@ -1,10 +1,8 @@
-# 需完善
-https://github.com/blackmatrix7/ios_rule_script/tree/master/icon/mini 备份自 https://github.com/Orz-3/mini/tree/master/Alpha
+# 仅用做备份
+https://github.com/micsand/quan-x/tree/main/icon/Orz-3/mini 备份自 https://github.com/Orz-3/mini
 
-https://github.com/blackmatrix7/ios_rule_script/tree/master/icon/color 备份自 https://github.com/Orz-3/mini/tree/master/Color
 
-https://github.com/blackmatrix7/ios_rule_script/tree/master/icon/qure 备份自 https://github.com/Koolson/Qure/tree/master/IconSet
 
-https://github.com/blackmatrix7/ios_rule_script/tree/master/icon/dark 备份自 https://github.com/Koolson/Qure/tree/master/IconSet/Dark
+https://github.com/micsand/quan-x/tree/main/icon/Koolson/Qure 备份自 https://github.com/Koolson/Qure
 
-https://github.com/blackmatrix7/ios_rule_script/tree/master/icon/qure/color 备份自 https://github.com/Koolson/Qure/tree/master/IconSet/Color
+
