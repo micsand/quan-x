@@ -3,6 +3,7 @@
 server_check_url= http://www.qualcomm.cn/generate_204
 
 #【节点信息展示】，可完整自定义展示内容与方式
+#因为创建了策略组，如果启用了下面前两个中的一个，只会显示手动节点的信息，策略组中实际用的节点信息不展示，所以将其关闭，蓦然显示机场信息。
 ;geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
 ;geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Orz-3/Orz-3/master/QuantumultX/IP.js
 geo_location_checker=disabled
@@ -18,7 +19,7 @@ dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.
 resource_parser_url= https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 
 #【节点图标】
-profile_img_url=https://raw.githubusercontent.com/micsand/quan-x/main/icon/Koolson/Qure/IconSet/Color/Airport.png
+profile_img_url= https://raw.githubusercontent.com/micsand/quan-x/main/icon/Koolson/Qure/IconSet/Color/Airport.png
 
 #下列表中的内容将【不经过 QuantumultX的处理】，设置后建议重启设备
 excluded_routes= 192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
