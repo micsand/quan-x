@@ -3,10 +3,11 @@
 server_check_url= http://www.qualcomm.cn/generate_204
 
 #【节点信息展示】，可完整自定义展示内容与方式
-#因为创建了策略组，如果启用了下面前两个中的一个，只会显示手动节点的信息，策略组中实际用的节点信息不展示，所以将其关闭，蓦然显示机场信息。
+#因为创建了策略组，如果启用了下面前两个中的一个，只会显示手动节点的信息，策略组中实际用的节点信息不展示，所以将其关闭，默认显示机场名字。
 ;geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
 ;geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/Orz-3/Orz-3/master/QuantumultX/IP.js
 geo_location_checker=disabled
+
 #【运行模式模块】
 ;running_mode_trigger=filter, filter, LINK_22E171:all_proxy, LINK_22E172:all_direct
 #KOP-XIAO还多了一个，ssid_suspended_list，让 Quantumult X 在【特定 Wi-Fi 网络下暂停工作】(仅 task 模块会继续工作)，多个Wi-Fi用“,”连接
@@ -15,15 +16,14 @@ geo_location_checker=disabled
 #【dns exclusion list】中的域名将【不使用fake-ip方式】. 其它域名则全部采用 fake-ip 及远程解析的模式
 dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me
 
-#【资源解析器】，可用于自定义各类远程资源的转换，如节点，规则 filter，复写 rewrite 等，url 地址可远程，可 本地/iCloud(Quantumult X/Scripts目录)
+#【资源解析器】，可用于自定义各类远程资源的转换，如节点，规则 filter，复写 rewrite 等，url 地址可远程，可本地/iCloud(Quantumult X/Scripts目录)
 resource_parser_url= https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 
-#【节点图标】
+#【节点图标】其实并不知道修改了哪里的图标
 profile_img_url= https://raw.githubusercontent.com/micsand/quan-x/main/icon/Koolson/Qure/IconSet/Color/Airport.png
 
 #下列表中的内容将【不经过 QuantumultX的处理】，设置后建议重启设备
 excluded_routes= 192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
-
 ;icmp_auto_reply=true
 
 [dns]
@@ -74,7 +74,8 @@ static=漏网之鱼,手动选择,自动选择,香港,美国,新加坡,日本,台
 # "tag" 跟 "enabled" 为可选参数，分别表示 “标签”及“开启状态”, true 为开启，false 关闭.
 # update-interval 为更新时间参数，单位 秒, 默认更新时间为 24*60*60=86400 秒，也就是24小时.
 # opt-parser=true/false 用于控制是否对本订阅 开启资源解析器，不写或者 false 表示不启用解析器;
-#服务器远程订阅
+#如果要修改机场前的图标可以增加img-url参数。
+#【服务器远程订阅】
 [server_remote]
 
 #规则分流远程订阅
@@ -93,6 +94,7 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter
 
 # YouTube规则
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX//YouTube/YouTube.list, tag=YouTube 规则, force-policy=YouTube, update-interval=86400, opt-parser=false, enabled=true
+
 # Streaming 国际流媒体服务
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/StreamingMedia/Streaming.list, , tag=🎯国际流媒体, force-policy=手动选择, update-interval=172800, opt-parser=false , enabled=true
 # Global 全球加速
@@ -136,7 +138,7 @@ ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 100.64.0.0/10, direct
 ip-cidr, 224.0.0.0/4, direct
 ip6-cidr, fe80::/10, direct
-;geoip,cn,direct
+geoip,cn,direct
 final,漏网之鱼
 
 #本地复写规则
