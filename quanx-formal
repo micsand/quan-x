@@ -92,6 +92,7 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter
 # Hijacking 运营商劫持或恶意网站
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Guard/Hijacking.list, tag=🛑运营商劫持-拒绝, update-interval=172800, opt-parser=false, enabled=true
 
+#因为我单独创建了youtube的策略组，为了起作用，所以找了一个youtube的分流订阅，放置的顺序很重要，要放在下面国际流媒体服务的上面，否则下面的规则生效后，这条就不会起作用了。
 # YouTube规则
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX//YouTube/YouTube.list, tag=YouTube 规则, force-policy=YouTube, update-interval=86400, opt-parser=false, enabled=true
 
