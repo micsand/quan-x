@@ -76,8 +76,6 @@ static=漏网之鱼,手动选择,自动选择,香港,美国,新加坡,日本,台
 # opt-parser=true/false 用于控制是否对本订阅 开启资源解析器，不写或者 false 表示不启用解析器;
 #服务器远程订阅
 [server_remote]
-https://dashboard.flygogo.app/api/v1/client/subscribe?token=801ab2718581f28539dece684baba5a7, tag=flygogo, update-interval=172800, opt-parser=true, enabled=true
-http://v2pn.live/api/v1/client/subscribe?token=b2162d14149ae6806fb004ef01ea73a2, tag=V2pn, update-interval=172800, opt-parser=true, enabled=true
 
 #规则分流远程订阅
 [filter_remote]
