@@ -7,6 +7,7 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter
 
 下面是两种写法内容中的区别：
 第一种：
+```
 # Unbreak
 # > General
 DOMAIN,app.adjust.com
@@ -41,3 +42,4 @@ DOMAIN,update.googleapis.com,DIRECT
 DOMAIN,dl.google.com,DIRECT
 DOMAIN,dl.l.google.com,DIRECT
 DOMAIN,update.googleapis.com,DIRECT
+```
