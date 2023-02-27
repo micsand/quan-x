@@ -2,6 +2,7 @@
 以神机和大飞的规则举例：
 第一种如下，利用force-policy=direct参数对要走的规则（策略）进行了指定
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=🔂Unbreak, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
+
 第二种是在内容里对要走的规则（策略）逐条进行了指定，在外面就不需要force-policy=这个参数了
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Unbreak.list, tag=🎯规则修正-直连, update-interval=172800, opt-parser=false, enabled=true
 
