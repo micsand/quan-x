@@ -4,6 +4,8 @@ https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter
 对应新的分流地在如下路径：
 https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset
 
+目前收录了了大佬配置文件中涉及到的分流规则。
+
 以下是对规则和策略组这部分内容的搬运，因为这个可能主要是给surge写的，所以有些可能不适用于quanx。
 ***
 
