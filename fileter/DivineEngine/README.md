@@ -5,6 +5,22 @@ https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Filter
 https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset
 
 目前收录了了大佬配置文件中涉及到的分流规则。
+- Block OTA update for iOS
+- Unbreak 后续规则修正
+- Advertising 广告
+- Privacy 隐私
+- Hijacking 运营商劫持或恶意网站
+- Disney+
+- Netflix
+- YouTube
+- Spotify
+- Streaming 国际流媒体服务
+- StreamingSE 中国流媒体服务(面向海外版本)
+- Telegram
+- Global 全球加速
+- Apple 服务
+- China 中国直连
+
 
 以下是对规则和策略组这部分内容的搬运，因为这个可能主要是给surge写的，所以有些可能不适用于quanx。
 ***
