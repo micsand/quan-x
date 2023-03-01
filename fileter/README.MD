@@ -1,5 +1,6 @@
 分流fileter的写法感觉有两种：
 以神机和大飞的规则举例：
+
 第一种如下，利用force-policy=direct参数对要走的规则（策略）进行了指定
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list, tag=🔂Unbreak, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
 
