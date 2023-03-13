@@ -18,3 +18,5 @@ blackmatrix7：https://github.com/blackmatrix7/ios_rule_script
 
 配置文件订阅地址：https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/LazyConf/QuantumultX_EDC-Lazy.conf
 
+这位大佬写了一个比较详细的配置文件的说明，可以好好看看。
+https://github.com/Toperlock/quantumult/blob/main/Quantumult.conf
