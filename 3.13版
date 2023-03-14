@@ -20,7 +20,8 @@
 #2023—03—13
 #在分流中增加了电报的分流规则，用的神机的，地址是我的GitHub仓库，相应的在策略中增加了电报的策略。
 #为了实现获取机场节点的实际代理国家，在电报群中提问（相关记录保存在了我的频道），有个人给了我一个boxjs的订阅让我添加，添加后并没有找到相关功能的脚本，但是我看群内其他人的问题正好有人问查询节点信息怎么弄的，原来我一直不明白geo_location_checker=有什么用，以为只是左上角显示节点信息用的，其实也可以长按订阅节点，里面有个节点信息可以查看，经过试用，发现可以显示实际代理的国家，也算实现了我的要求。
-
+#20230314
+#新增了task local中的内容。
 [general]
 #对 server_check_url 指定的网址进行相应测试，以【确认节点的可用性】
 ;server_check_url= http://www.qualcomm.cn/generate_204
@@ -215,17 +216,16 @@ final,漏网之鱼
 #以下为证书&主机名部分
 
 [task_local]
-event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Script/NodeLinkCheck.js, tag=Env代理链路检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png, enabled=true
-
-event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/geo_location.js, tag=地址查询, img-url=location.fill.viewfinder.system, enabled=true
-
-
-#2⃣️ UI交互查询脚本示范，在首页长按 节点/策略组 唤出
-event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag = 流媒体 - 解锁查询, img-url=checkmark.seal.system, enabled=true
-
 # > 流媒体解锁查询
+# 以下两个区别只是图标不同
+event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体解锁查询，img-url=checkmark.seal.system, enabled=true
 event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体解锁查询, img-url=arrowtriangle.right.square.system, enabled=true
-event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/geo_location.js, tag=GeoIP 查询, img-url=location.fill.viewfinder.system
+# > Geoip查询
+event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/geo_location.js, tag=GeoIP 查询, img-url=location.fill.viewfinder.system, enabled=true
+# > 代理链路检测
+event-interaction https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/NodeLinkCheck/Script/NodeLinkCheck.js, tag=Env代理链路检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Stack.png, enabled=true
+# > 网易云解锁查询
+event-interaction https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/TaskLocal/NeteaseMusicUnlockCheck.js, tag=音乐查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Unlock.png, enabled=true
 
 [mitm]
 passphrase = 2C368980
