@@ -3,6 +3,7 @@
 
 大飞的配置文件[w37fhy](w37fhy.conf)内容比较全面，也有定时对节点进行延迟测试，并选择延迟低节点功能，但是策略组感觉比较鸡肋，除了自动选择，剩下的策略组仅仅是将节点按地区区分了出来，我想要一个可以不同应用走不同地区的策略。
 
+[Toperlock.conf](Toperlock.conf)大佬的则更为详细，几乎把同一内容的不同规则都写出来了。而且注释详细。
 
 # 几个仓库地址
 神机规则： https://github.com/DivineEngine/Profiles/tree/master
