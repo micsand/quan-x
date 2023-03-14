@@ -1,14 +1,6 @@
 # quan-x-
 
 
-资源解析器：
-我看了下几个人的配置规则，资源解析器都是用的KOP-XIAO的，
-
-项目地址为：
-https://github.com/KOP-XIAO/QuantumultX/blob/master/Scripts/resource-parser.js
-
-订阅地址为：
-https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 
 
 配置文件合集中[kop-xiao](/配置文件合集/KOP-XIAO.conf)比较基础，是为了立即能用而存在的，策略也比较简单。分流规则和重写内容比较少。但是配置文件中注释写的比较详细，将来可以学习写自己的配置文件。
