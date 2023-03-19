@@ -28,3 +28,7 @@ blackmatrix7：https://github.com/blackmatrix7/ios_rule_script
 Toperlock大佬写了一个比较详细的配置文件的说明，可以好好看看。
 https://github.com/Toperlock/quantumult/blob/main/Quantumult.conf
 是电报中有个大佬发的：https://t.me/QuanXApp/3906136
+
+
+fmz200郑一笙的仓库，内容很全面
+https://github.com/fmz200/wool_scripts
