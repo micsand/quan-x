@@ -29,6 +29,8 @@ Toperlock大佬写了一个比较详细的配置文件的说明，可以好好�
 https://github.com/Toperlock/quantumult/blob/main/Quantumult.conf
 是电报中有个大佬发的：https://t.me/QuanXApp/3906136
 
+这位不知道是谁发的，暂时先保存上，万一需要用
+https://github.com/leompsy/nzw9314
 
 fmz200郑一笙的仓库，内容很全面
 https://github.com/fmz200/wool_scripts
