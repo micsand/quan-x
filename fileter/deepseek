@@ -1,0 +1,6 @@
+# DeepSeek AI 公司
+HOST-SUFFIX,deepseek.com
+HOST-SUFFIX,api.deepseek.com
+IP-CIDR,60.204.2.4/32
+IP-CIDR,60.204.2.5/32
+IP-CIDR,3.173.21.63/32
