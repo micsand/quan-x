@@ -11,3 +11,7 @@ https://github.com/zmqcherish/proxy-script
 贴吧：
 
 https://github.com/app2smile/rules
+
+
+#20260126
+去广告的有分流和复写两块，分别在他们的文件夹中，这个文件夹暂时不放内容
